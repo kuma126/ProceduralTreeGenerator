@@ -1,0 +1,12 @@
+# Visual Studio のキャッシュや設定ファイル
+.vs/
+*.user
+*.suo
+*.db
+
+# ビルド成果物（中間ファイルやデバッグファイル、実行ファイル）
+build/
+bin/
+obj/
+*.pdb
+*.ipch
