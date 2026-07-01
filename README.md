@@ -1,1 +1,12 @@
-"# ProceduralTreeGenerator" 
+# 障害物を考慮するストランドを用いた木のモデリング 
+
+## 概要
+CSV形式の木の骨格データと.obj形式の障害物モデルを入力として，障害物を飲み込んだ木のモデルを生成する．OpenGLを用いて生成過程を確認し，最終的なメッシュを.obj形式で出力する．
+
+![ストランド粒子の可視化](strand_cylinder)
+![Blenderでのレンダリング結果](pictures/large_tree_cylinder.png)
+
+## 仕様技術
+* **言語:** C++
+* **グラフィックス:** OpenGL
+* **主要ライブラリ:** CGAL, GLM
